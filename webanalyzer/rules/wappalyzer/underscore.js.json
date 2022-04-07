@@ -1,0 +1,6 @@
+{
+    "website": "http://underscorejs.org",
+    "name": "Underscore.js",
+    "excludes": "Lodash",
+    "matches": []
+}

@@ -1,0 +1,15 @@
+{
+    "website": "https://www.ionos.com",
+    "name": "MyWebsite Now",
+    "implies": [
+        "React",
+        "Node.js",
+        "GraphQL"
+    ],
+    "matches": [
+        {
+            "search": "meta[generator]",
+            "regexp": "MyWebsite NOW"
+        }
+    ]
+}

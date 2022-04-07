@@ -1,0 +1,10 @@
+{
+    "website": "https://townnews.com/",
+    "name": "TownNews",
+    "matches": [
+        {
+            "search": "headers[x-tncms]",
+            "regexp": ".*"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "website": "https://svelte.dev",
+    "name": "Svelte",
+    "matches": [
+        {
+            "regexp": "<[^>]+class=\\\"[^\\\"]+\\ssvelte-[\\w]*\\\""
+        }
+    ]
+}

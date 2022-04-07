@@ -1,0 +1,9 @@
+{
+    "website": "http://www.vignette.com",
+    "name": "Vignette",
+    "matches": [
+        {
+            "regexp": "<[^>]+=\"vgn-?ext"
+        }
+    ]
+}

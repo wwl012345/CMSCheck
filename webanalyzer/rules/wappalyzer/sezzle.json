@@ -1,0 +1,10 @@
+{
+    "website": "https://sezzle.com/",
+    "name": "Sezzle",
+    "matches": [
+        {
+            "search": "meta[sezzle_cid]",
+            "regexp": ".*"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "website": "https://boldgrid.com",
+    "name": "BoldGrid",
+    "matches": [
+        {
+            "regexp": "<link rel=[\"']stylesheet[\"'] [^>]+boldgrid"
+        },
+        {
+            "regexp": "<link rel=[\"']stylesheet[\"'] [^>]+post-and-page-builder"
+        },
+        {
+            "regexp": "<link[^>]+s\\d+\\.boldgrid\\.com"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "website": "https://ometria.com",
+    "name": "Ometria",
+    "matches": [
+        {
+            "search": "cookies[ometria]",
+            "regexp": ".*"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "website": "http://subrion.com",
+    "name": "Subrion",
+    "implies": "PHP",
+    "matches": [
+        {
+            "search": "meta[generator]",
+            "regexp": "^Subrion "
+        },
+        {
+            "search": "headers[x-powered-cms]",
+            "regexp": "Subrion CMS"
+        }
+    ]
+}

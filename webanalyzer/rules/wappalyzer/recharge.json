@@ -1,0 +1,8 @@
+{
+    "website": "https://rechargepayments.com/",
+    "name": "Recharge",
+    "implies": [
+        "Cart Functionality"
+    ],
+    "matches": []
+}

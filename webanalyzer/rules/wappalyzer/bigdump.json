@@ -1,0 +1,14 @@
+{
+    "implies": [
+        "MySQL",
+        "PHP"
+    ],
+    "matches": [
+        {
+            "offset": 1,
+            "regexp": "<!-- <h1>BigDump: Staggered MySQL Dump Importer ver\\. ([\\d.b]+)"
+        }
+    ],
+    "website": "http://www.ozerov.de/bigdump.php",
+    "name": "BigDump"
+}

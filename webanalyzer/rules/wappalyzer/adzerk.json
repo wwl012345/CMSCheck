@@ -1,0 +1,9 @@
+{
+    "name": "Adzerk",
+    "matches": [
+        {
+            "regexp": "<iframe [^>]*src=\"[^\"]+adzerk\\.net"
+        }
+    ],
+    "website": "http://adzerk.com"
+}

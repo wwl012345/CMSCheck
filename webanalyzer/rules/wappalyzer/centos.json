@@ -1,0 +1,14 @@
+{
+    "website": "http://centos.org",
+    "name": "CentOS",
+    "matches": [
+        {
+            "search": "headers[server]",
+            "regexp": "CentOS"
+        },
+        {
+            "search": "headers[x-powered-by]",
+            "regexp": "CentOS"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "website": "https://www.dailymotion.com",
+    "name": "Dailymotion",
+    "matches": [
+        {
+            "search": "meta[name]",
+            "regexp": "dailymotion-domain-verification"
+        }
+    ]
+}

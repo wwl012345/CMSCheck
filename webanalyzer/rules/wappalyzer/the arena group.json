@@ -1,0 +1,10 @@
+{
+    "website": "https://thearenagroup.net",
+    "name": "The Arena Group",
+    "matches": [
+        {
+            "search": "meta[generator]",
+            "regexp": "^Tempest\\s-\\smaven\\.io$"
+        }
+    ]
+}

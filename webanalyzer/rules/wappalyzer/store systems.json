@@ -1,0 +1,9 @@
+{
+    "matches": [
+        {
+            "regexp": "Shopsystem von <a href=[^>]+store-systems\\.de\""
+        }
+    ],
+    "website": "http://store-systems.de",
+    "name": "Store Systems"
+}

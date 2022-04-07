@@ -1,0 +1,9 @@
+{
+    "website": "https://instapage.com",
+    "name": "Instapage",
+    "implies": [
+        "Lua",
+        "Node.js"
+    ],
+    "matches": []
+}

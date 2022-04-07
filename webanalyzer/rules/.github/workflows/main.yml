@@ -1,0 +1,61 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: update_rules
+
+on: 
+  push: 
+    branches: [ master ]
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 12 * * *'
+  
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.5
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.5
+
+    - name: Set up Ruby 2.6
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.6
+        bundler-cache: true 
+
+    - name: setup env
+      run: |
+        git config --global user.name "fate0"
+        git config --global user.email "git@fatezero.org"
+
+    - name: run wappalyzer
+      run: |
+        git clone -b master --depth=1 https://github.com/AliasIO/wappalyzer hello_wappalyzer
+        python tools/wappalyzer.py ./hello_wappalyzer/src/technologies ./wappalyzer
+        rm -rf hello_wappalyzer
+        
+    - name: run whatweb
+      run: |
+        git clone -b master --depth=1 https://github.com/urbanadventurer/WhatWeb hello_whatweb
+        ruby tools/whatweb.rb ./hello_whatweb/plugins/ ./whatweb/
+        rm -rf hello_whatweb
+
+    - name: commit
+      run: |
+        git add .
+        git commit -m "Auto Update Rules" && date "+%Y.%m.%d" > VERSION || true
+        git add VERSION
+        git commit -m "Update version" || true
+    
+    - name: push
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master
+        force: true
+    

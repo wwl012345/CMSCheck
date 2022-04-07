@@ -1,0 +1,10 @@
+{
+    "website": "https://strapi.io",
+    "name": "Strapi",
+    "matches": [
+        {
+            "search": "headers[x-powered-by]",
+            "regexp": "^Strapi"
+        }
+    ]
+}

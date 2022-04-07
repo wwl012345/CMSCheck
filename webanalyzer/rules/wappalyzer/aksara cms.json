@@ -1,0 +1,13 @@
+{
+    "website": "https://aksaracms.com",
+    "name": "Aksara CMS",
+    "implies": [
+        "PHP",
+        "MySQL",
+        "CodeIgniter",
+        "Bootstrap",
+        "jQuery",
+        "OpenLayers"
+    ],
+    "matches": []
+}

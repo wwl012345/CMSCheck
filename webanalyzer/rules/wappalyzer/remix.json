@@ -1,0 +1,8 @@
+{
+    "website": "https://remix.run/",
+    "name": "Remix",
+    "implies": [
+        "React"
+    ],
+    "matches": []
+}

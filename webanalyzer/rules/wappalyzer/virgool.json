@@ -1,0 +1,10 @@
+{
+    "website": "https://virgool.io",
+    "name": "Virgool",
+    "matches": [
+        {
+            "search": "headers[x-powered-by]",
+            "regexp": "^Virgool$"
+        }
+    ]
+}

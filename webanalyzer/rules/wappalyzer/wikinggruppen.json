@@ -1,0 +1,9 @@
+{
+    "website": "https://wikinggruppen.se/",
+    "name": "Wikinggruppen",
+    "matches": [
+        {
+            "regexp": "<!-- WIKINGGRUPPEN"
+        }
+    ]
+}

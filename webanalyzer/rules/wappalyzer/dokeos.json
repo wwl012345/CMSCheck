@@ -1,0 +1,23 @@
+{
+    "website": "https://dokeos.com",
+    "name": "Dokeos",
+    "implies": [
+        "PHP",
+        "Xajax",
+        "jQuery",
+        "CKEditor"
+    ],
+    "matches": [
+        {
+            "search": "meta[generator]",
+            "regexp": "Dokeos"
+        },
+        {
+            "search": "headers[x-powered-by]",
+            "regexp": "Dokeos"
+        },
+        {
+            "regexp": "(?:Portal <a[^>]+>Dokeos|@import \"[^\"]+dokeos_blue)"
+        }
+    ]
+}

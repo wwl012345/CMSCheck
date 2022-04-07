@@ -1,0 +1,15 @@
+{
+    "website": "https://www.hcltechsw.com/products/dx",
+    "name": "HCL Digital Experience",
+    "implies": "Java",
+    "matches": [
+        {
+            "search": "headers[itx-generated-timestamp]",
+            "regexp": ".*"
+        },
+        {
+            "search": "headers[ibm-web2-location]",
+            "regexp": ".*"
+        }
+    ]
+}

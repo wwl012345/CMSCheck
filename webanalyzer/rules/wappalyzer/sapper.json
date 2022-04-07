@@ -1,0 +1,13 @@
+{
+    "website": "https://sapper.svelte.dev",
+    "name": "Sapper",
+    "implies": [
+        "Svelte",
+        "Node.js"
+    ],
+    "matches": [
+        {
+            "regexp": "<script[^>]*>__SAPPER__"
+        }
+    ]
+}

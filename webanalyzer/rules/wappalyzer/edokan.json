@@ -1,0 +1,10 @@
+{
+    "website": "https://edokan.co",
+    "name": "eDokan",
+    "implies": [
+        "Node.js",
+        "Angular",
+        "MongoDB"
+    ],
+    "matches": []
+}

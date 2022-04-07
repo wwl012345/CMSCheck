@@ -1,0 +1,10 @@
+{
+    "website": "https://angular.io",
+    "name": "Angular",
+    "implies": "TypeScript",
+    "matches": [],
+    "excludes": [
+        "AngularDart",
+        "AngularJS"
+    ]
+}

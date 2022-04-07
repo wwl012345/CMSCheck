@@ -1,0 +1,10 @@
+{
+    "website": "https://www.rakuten.com/",
+    "name": "Rakuten",
+    "matches": [
+        {
+            "search": "cookies[rakuten-source]",
+            "regexp": ".*"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "website": "http://headjs.com",
+    "name": "HeadJS",
+    "matches": [
+        {
+            "regexp": "<[^>]*data-headjs-load"
+        }
+    ]
+}
